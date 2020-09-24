@@ -3,7 +3,11 @@
 # ------------------------------------------------------------------------------
 
 ## The StatefulSet installs 3 pods by default
-replicas: 2
+replicas: 1
+
+# server.properties values
+partitions: 8
+
 
 ## The kafka image repository
 image: "confluentinc/cp-kafka"
